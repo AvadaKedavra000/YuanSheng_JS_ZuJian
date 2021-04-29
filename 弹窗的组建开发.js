@@ -131,11 +131,23 @@ Drag.prototype.fnClose = function () { //关闭按钮
 }
 Drag.prototype.toDown = function (ev) {
     this.disX = ev.clientX - this.obj.offsetLeft;
-    this.disY = ev.clientY - this.obj.offsetLeft;
+    this.disY = ev.clientY - this.obj.offsetTop;
 }
 Drag.prototype.toMove = function (ev) {
     let L = ev.clientX - this.disX;
     let T = ev.clientY - this.disY;
+    if(L<0){
+        L=0;
+    }
+    else if(L>viewWidth()-this.obj.offsetWidth){
+        L = viewWidth() - this.obj.offsetWidth;
+    }
+    if(T<0){
+        T=0;
+    }
+    else if(T>viewHeight()-this.obj.offsetHeight){
+        T = viewHeight() - this.obj.offsetHeight;
+    }
     this.obj.style.left = L+ 'px';
     this.obj.style.top = T+ 'px';
 }
