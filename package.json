@@ -1,0 +1,28 @@
+{
+  "name": "YuanSheng_JS_ZuJian",
+  "version": "1.0.0",
+  "description": "原生JS组件",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvadaKedavra000/YuanSheng_JS_ZuJian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvadaKedavra000/YuanSheng_JS_ZuJian/issues"
+  },
+  "homepage": "https://github.com/AvadaKedavra000/YuanSheng_JS_ZuJian#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

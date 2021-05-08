@@ -1,0 +1,30 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    position: absolute;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color:#ffc;
+    position: absolute;
+    left: 100px;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color:#cfc;
+    position: absolute;
+    left: 200px;
+}
+
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color:#ccf;
+    position: absolute;
+    left: 300px;
+}
